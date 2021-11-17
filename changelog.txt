@@ -1,0 +1,53 @@
+----------------
+Fusible Plug
+Change Log
+ChuckstaBurnt
+
+
+Bug = Issue fixed
+Add = Enhancement
+-----------------
+Version 2.0.1 - 3/20/2013
+027. Add - Major - Added a flag to enable/disable the logger.
+026. Bug - Major - Fixed an issue where FusiblePlug would not start server with defined port.
+
+Version 2.0.0 - 3/6/2013
+025. Add - Minor - Added a basic deloyment and overview guide.
+024. Bug - Major - Fixed a looping condition that would occur if (FusiblePlug) log file was not present and srcds.exe was not running.
+023. Add - Minor - Added codes for logging to inform user what was done during run.
+022. Add - Major - Added script logging to aid in debugging and historical data.
+
+Version 1.1.1 - 3/4/2013
+021. Add - Minor - Tool now deletes console.log after update.
+020. Bug - Minor - Made test-path run with -quiet flag so it doesn't post file path twice.
+019. Add - Minor - Made string search within log more verboses.
+018. Bug - Major - Fixed which log file script checks (console.log)
+017. Bug - Minor - Added flags for srcds.exe that initiate console logging.
+
+Version 1.1.0 - 3/4/2013
+016. Bug - Minor - Fixed a condition where script could read wrong (old) log file after an update.
+015. Add - Minor - Added output line informing admin that randomizer is on.
+014. Add - Major - Script now requires fewer pre-defined variables from the admin.
+013. Add - Minor - Script assembles three of the previously defined paths by using other provided values.
+012. Bug - Major - Moved command assemblers into appropriate functions so they aren't built before all variables are set.
+011. Add - Minor - Tool now prints what map the server is starting with.
+010. Add - Major - Added a map randomizer on start.
+
+Version 1.0.3 - 3/3/2013
+009. Bug - Minor - Fixed grammatical error (a update -> an update).
+008. Add - Minor - Whitespace changes (code readibility).
+007. Bug - Minor - If logs are present, FP now informs you to check the correct config file.
+
+
+Version 1.0.2 - 3/2/2013
+006. Add - Major - Renamed tool "Fusible Plug"
+005. Bug - Minor - Change wording on some of the output to be more clear.
+004. Add - Minor - Moved slash out of $FullLogPath builder and added it to end of $LogDirectory
+003. Bug - Minor - Moved second sleep timer out of a conditional statement to ensure it is called.
+
+Version 1.0.1 - 3/2/2013
+001. Add - Minor - Fixed the spacing of output to make it easier to read.
+002. Add - Minor - Added sleep timers so that output can be read prior to task ending.
+
+Version 1.0.0 - 3/2/2013
+000. Initial release.
